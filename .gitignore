@@ -1,0 +1,69 @@
+# Historial de comandos de R
+.Rhistory
+
+# Archivos temporales de R
+.RData
+
+# Archivos de configuración de R
+.Ruserdata
+
+# Archivos de entorno de R
+.Renviron
+
+# Directorios de R lib (paquetes instalados localmente)
+rlib/
+
+# Archivos de proyecto de RStudio
+.Rproj.user/
+.Rproj
+
+# Archivos temporales de RStudio
+.rs.history
+
+# Archivos de suspensión de RStudio
+.rs.RData
+
+# Archivos temporales generados por la compilación
+*.tar.gz
+*.Rcheck/
+*.Rproj.user/
+
+# Omitir archivos de paquetes si se gestionan en un repositorio separado
+PACKAGES
+
+# Archivos generados por roxygen2
+man/
+NAMESPACE
+
+# Archivos de salida de Sweave
+*.snm
+*.out
+*.nav
+*.log
+*.aux
+*.toc
+*.blg
+*.bbl
+*.synctex.gz
+*.synctex(busy)
+
+# Archivos de salida de knitr y R Markdown
+*.md
+*.html
+*.pdf
+*.docx
+*.rtf
+
+# Cache de knitr
+/cache/
+figure/
+
+# Otros archivos y directorios a ignorar
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de paquetes específicos
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
