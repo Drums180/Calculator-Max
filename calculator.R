@@ -1,60 +1,27 @@
 # Equipo 5 Calculator Max
 # David Dominguez - A01570975
-#Daniel Najera - A01709578
-
-
-
-
+# Daniel Najera - A01709578
 
 # Suma
 sumar <- function(a, b) {
   return(a + b)
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Calculadora
 while (TRUE) {
-  menu()  # Mostrar el menú
-  opcion <- as.numeric(readline("Seleccione una opción (1-5): "))
+  menu()  # Mostrar el menÃº
+  opcion <- as.numeric(readline("Seleccione una opciÃ³n (1-5): "))
   
   if (opcion == 5) {
-    cat("¡Hasta luego!\n")
+    cat("Â¡Hasta luego!\n")
     break
   }
   
   if (opcion >= 1 && opcion <= 4) {
-    num1 <- as.numeric(readline("Ingrese el primer número: "))
-    num2 <- as.numeric(readline("Ingrese el segundo número: "))
+    num1 <- as.numeric(readline("Ingrese el primer nÃºmero: "))
+    num2 <- as.numeric(readline("Ingrese el segundo nÃºmero: "))
     
-    # Realizar la operación según la opción seleccionada
+    # Realizar la operaciÃ³n segÃºn la opciÃ³n seleccionada
     resultado <- switch(opcion,
                         sumar(num1, num2),
                         restar(num1, num2),
@@ -63,6 +30,6 @@ while (TRUE) {
     
     cat("Resultado: ", resultado, "\n\n")
   } else {
-    cat("Opción no válida. Por favor, seleccione una opción válida (1-5).\n\n")
+    cat("OpciÃ³n no vÃ¡lida. Por favor, seleccione una opciÃ³n vÃ¡lida (1-5).\n\n")
   }
 }
