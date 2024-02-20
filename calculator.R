@@ -1,6 +1,16 @@
 # Equipo 5 Calculator Max
 # David Dominguez - A01570975
+# Gabriel Medina
 # Daniel Najera - A01709578
+
+# Función de División
+dividir <- function(a, b) {
+  if (b != 0) {
+    return(a / b)
+  } else {
+    return("No es posible dividir por cero.")
+  }
+}
 
 # Suma
 sumar <- function(a, b) {
@@ -33,3 +43,4 @@ while (TRUE) {
     cat("Opción no válida. Por favor, seleccione una opción válida (1-5).\n\n")
   }
 }
+
