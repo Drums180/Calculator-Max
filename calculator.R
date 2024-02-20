@@ -2,6 +2,11 @@
 # David Dominguez - A01570975
 # Gabriel Medina
 # Daniel Najera - A01709578
+# Alejandra Suarez - A00835247
+
+# Función de multiplicación
+multiplicar <- function(a, b) {
+  return(a * b)
 
 # Función de División
 dividir <- function(a, b) {
