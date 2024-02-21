@@ -1,4 +1,4 @@
-![Screenshot 2020-06-22 at 8 52 17 PM](https://github.com/Drums180/Calculator-Max/assets/118247139/83727e68-6104-41ca-9c6c-98a87331518f)
+![Applied Calculator](https://slogix.in/images/source-code/r-programming-sample/Selection_019.png)
 # **Calculadora en R Studio**
 
 ## **Descripción**
@@ -50,8 +50,8 @@ Las **contribuciones son bienvenidas**. Si estás interesado en mejorar el proye
 
 ## **Licencia**
 
-Este proyecto está licenciado bajo [insertar tipo de licencia aquí]. Esto permite el uso, modificación, y distribución del proyecto bajo los términos de dicha licencia.
+Este proyecto está licenciado bajo [Licencia MIT]. Esto permite el uso, modificación, y distribución del proyecto bajo los términos de dicha licencia.
 
 ## **Contacto**
 
-Para preguntas, comentarios, o sugerencias, por favor, **no dudes en contactarme**.
+Para preguntas, comentarios, o sugerencias, por favor, **no duden en contactarnos**.
