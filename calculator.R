@@ -1,5 +1,6 @@
 # Equipo 5 Calculator Max
 # David Dominguez - A01570975
+# Eduardo Camacho - A01026437
 # Gabriel Medina
 # Daniel Najera - A01709578
 # Alejandra Suarez - A00835247
@@ -20,6 +21,11 @@ dividir <- function(a, b) {
 # Suma
 sumar <- function(a, b) {
   return(a + b)
+}
+  
+#Restart
+restart <- function(a, b) {
+  return(a - b)
 }
 
 # Calculadora
